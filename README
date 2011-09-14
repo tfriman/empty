@@ -1,3 +1,5 @@
 Install maven 3.
 
 Run "mvn clean package exec:help" in this directory to get all the dependencies. Exit status should be "BUILD SUCCESS".
+
+Optionally you can run "mvn dependency:sources dependency:resolve -Dclassifier=javadoc" too to get sources and javadocs to your local repository.
